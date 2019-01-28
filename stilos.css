@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    background-image: url(ubuntu.jpg);
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .form{
@@ -10,14 +13,14 @@
 
 }
 .texto{
-    background: brown;
+    background: blue;
     border-radius: 4px;
 }
 .edad{
-    background: brown;
+    background: blue;
     border-radius: 4px;
 }
 .envia{
-    background: brown;
+    background: blue;
     border-radius: 4px;
 }
