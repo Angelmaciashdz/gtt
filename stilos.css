@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(ubuntu.jpg);
+}
+
+.form{
+    margin:auto;
+    align-content: center;
+
+}
+.texto{
+    background: brown;
+    border-radius: 4px;
+}
+.edad{
+    background: brown;
+    border-radius: 4px;
+}
+.envia{
+    background: brown;
+    border-radius: 4px;
+}
