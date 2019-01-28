@@ -10,17 +10,19 @@
 .form{
     margin:auto;
     align-content: center;
-
+    font-size: 16px;
 }
 .texto{
     background: blue;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 .edad{
     background: blue;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 .envia{
     background: blue;
     border-radius: 4px;
+
+font-size: 16px;
 }
