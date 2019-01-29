@@ -10,6 +10,7 @@
     background:#6ebbd5;
     margin:20px;
     padding: 20px;
+    flex: 1;
 }
 #contenedor #relativo{
     background: #666666;
@@ -18,10 +19,22 @@
     top: 100px;
     float: left;
 }
-#contenedor #fix{float: left;
+#contenedor #fix{position:fixed;
 }
 
-#.contenedor2{
+.contenedor2{
 	width: 500px;
     margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    margin:auto;
+
+}
+#elemento2{
+    flex-basis: 50px;
+    flex:1;
+    order:2;
+}
+.d3{
+    align-self: center;
 }
