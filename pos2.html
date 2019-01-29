@@ -20,16 +20,57 @@
             position: relative;
             left: 300px;
         }
+        #contenedor2 div{
+            background: #666666;
+            margin: 20px;
+            padding: 20px;
+        }
+        #contenedor2 #abs{
+            background: #ff8000;
+            position: absolute;
+            left: 300px;
+            top: 200px;
+        }
+        #contenedor3 #fix{
+            position: fixed;
+        }
+        #float1 #flt{
+            float: left;
+         }
         
         </style>
 </head>
 <body>
+
+        <div id="contenedor3">
+                <div id="fix">Elemento1</div>
+                <div id="abs">Elemento2</div>
+                <div>Elemento3</div>
+            </div>
+            <a href=""></a>
+            <a href=""></a>
     <div id="contenedor">
-        <div>Elemento1</div>
+        <div >Elemento1</div>
         <div id="relativo">Elemento2</div>
         <div>Elemento3</div>
     </div>
     <a href=""></a>
     <a href=""></a>
+
+    <div id="contenedor2">
+        <div>Elemento1</div>
+        <div id="abs">Elemento2</div>
+        <div>Elemento3</div>
+    </div>
+    <a href=""></a>
+    <a href=""></a>
+
+    <div id="float1">
+            <div id="flt">Elemento1</div>
+            <div id="flt">Elemento2</div>
+            <div id="flt">Elemento3</div>
+        </div>
+        <a id="flt" href="">arc</a>
+        <a id="flt" href="">arc2</a>
 </body>
 </html>
