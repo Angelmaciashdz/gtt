@@ -16,25 +16,35 @@
     margin: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     /*flex-direction: row-reverse;
     flex-direction: column;
     flex-wrap:nowrap;*/ 
     justify-content:/*center start flex-end space-around*/center;
     align-items: /*flex-start flex-end center stretch baseline min 27*/center;
     flex-wrap:nowrap;
+    align-content: center;
 }
 .elemento{
+   /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+    flex: 1 1 350px; min 44*/
+    flex: 1;
+    flex-basis: 350px;
     color: #fff;
     margin:5px;
-    width: 200px;
-    /*
-    height: 50px;*/
+    width: 350px;
+    height: 50px;
     background: #E67E22;
     text-align: center;
 }
 .elemento2{
-    font-size:30px; 
+    /*flex-grow: 2;flex-shrink: 2;*/
 }
+/*.elemento2{
+    font-size:30px; 
+}*/
 </style>
 <body>
 <div class="contenedor">
