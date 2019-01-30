@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexBox</title>
+</head>
+<style type="text/css">
+.contenedor{
+    width: 500px;
+    height: 200px;
+    background: #fff;
+    padding: 10px;
+    border: 10px solid #2C3E50;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: row-reverse;
+    flex-direction: column;
+    flex-wrap:nowrap;*/ 
+    justify-content:/*center start flex-end space-around*/center;
+    align-items: /*flex-start flex-end center stretch baseline min 27*/center;
+    flex-wrap:nowrap;
+}
+.elemento{
+    color: #fff;
+    margin:5px;
+    width: 200px;
+    /*
+    height: 50px;*/
+    background: #E67E22;
+    text-align: center;
+}
+.elemento2{
+    font-size:30px; 
+}
+</style>
+<body>
+<div class="contenedor">
+    <div class="elemento elemento1">1</div>
+    <div class="elemento elemento2">2</div>
+    <div class="elemento elemento3">3</div>
+    <div class="elemento elemento4">4</div>
+</div>
+    
+</body>
+</html>
