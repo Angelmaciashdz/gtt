@@ -19,7 +19,7 @@ body{
 }
 
 header{
-    background: #DFFEFF;
+    background: #2c3e50;
     width: 100%;
     padding: 20px;
     /*Flex*/
@@ -73,7 +73,8 @@ header nav a:hover{
 .main{
     background: #fff;
     padding: 20px;
-    flex: 1 1 70%;
+  /*  flex: 1 1 70%;*/
+  flex: 1;
 }
 
 .main article{
@@ -89,8 +90,9 @@ header nav a:hover{
 }
 aside{
     background: #e67e22;
+    padding: 20px;
     /*Flrx*/
-    flex: 1 1 30%;
+    flex: 0 0 300px;
     display: flex;
 	flex-wrap:wrap;
 	flex-direction:column;
@@ -103,8 +105,81 @@ aside .widget{
 }
 
 footer{
+    background: #2c3e50;
+    width: 100%;
+    padding: 20px;
+    /*Flex*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .link{
+    background: #c0392b;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .link a{
+    flex-grow:1;
+    
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .link a:hover{
+    background: #e74c3c;
+}
+
+
+footer .redes{
+    background: #e67e22;
 
 }
+
+footer .redes a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+@media screen and (max-width:800px){
+    .contenedor{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+        padding: 0;
+    }
+    header .logo{
+        margin: 20px 0;
+    }
+    header nav{
+        width: 100%;
+    }
+    aside{
+        flex-direction: row;
+        flex: 0;
+    }
+    aside .widget{
+        flex-grow:1; 
+    }
+
+}
+
+@media screen and (max-width:600px){
+    aside{
+        flex-direction: column;
+    }
+    footer{
+        justify-content: space-around;
+    }
+}
+
+
 
 
 
